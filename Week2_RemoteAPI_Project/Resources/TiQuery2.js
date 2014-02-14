@@ -178,7 +178,7 @@ function creatingAwholeTableView(APIpassedSecond){
             
             universalSectionBuilder.add(universalTableRowsFucntion);
              
-    };//End of First Loop
+    };//End of Loop
     
     //Pushing sections
     universalSections.push(universalSectionBuilder);

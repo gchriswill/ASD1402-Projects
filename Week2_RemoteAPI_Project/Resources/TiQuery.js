@@ -1,7 +1,7 @@
-// "Ti.Query" is a Custom Titanium Module by Christopher "GchrisWill" Gonzalez... LOL!!!!!
-// Ti.Query version 1.3 (ASD Class specofic modified version)
+// "Ti.Query and Ti.Query2" is a Custom Titanium Module by Christopher "GchrisWill" Gonzalez... LOL!!!!!
+// Ti.Query version 1.3 (ASD Week 2 specific modified version)
 
-//Release Notes: Updated performance with more stability and improvements. More Function UI classes added, 1 Super Custom Class added and 2 Supper Custom Classes modified to fit app's structure needs... Enjoy!
+//Release Notes: Updated performance with more stability and improvements. More Function UI classes added, 1 Super Custom Class added and 2 Supper Custom Classes modified to fit app's structure... Enjoy!
 
 //Testing Include #2
 function alertMsg1(string){
@@ -23,7 +23,7 @@ function alertMsg1(string){
  * 10-creatingTableView
  * 11-creatingSectionView
  * 12-creatingTableRows
- * 
+ * 13-creatingActivityIndicator
  * 
  */
 
