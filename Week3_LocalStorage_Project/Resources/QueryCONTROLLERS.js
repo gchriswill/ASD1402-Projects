@@ -226,8 +226,6 @@ function TableViewController(windowTarget){
                         // Calling the delete function for deleting items
                         Qdelete.databaseDELETE(false, passID);
                         detailNavigation.close({modal: true});
-                        ApplicationInitiationController(null, 0, 1, 1, 62.5, 0);
-                        
                     }); 
                     
                     // Creating a tool bar "place holder" for holding the trash button...
