@@ -23,7 +23,7 @@ Info:
 
 Term: 1402  
 Instructor: Doug Arley  
-Assignments: Local CRUD and Remote Objects
+Assignments: Local CRUD and Remote Objects  
 Student: [Christopher W Gonzalez](https://my.orgsync.com/chriswgonz)  
 Class: [Advanced Scalable Data and Infrastructures (ASD)](http://www.fullsail.edu/degrees/campus/mobile-development-bachelors/courses/advanced-scalable-data-infrastructures-MDV-3330)  
 Program: [Mobile Development B.S. (MDVBS)](http://www.fullsail.edu/degrees/campus/mobile-development-bachelors)    
