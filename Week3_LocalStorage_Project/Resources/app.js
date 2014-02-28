@@ -35,11 +35,8 @@ Titanium.UI.setBackgroundColor("#fff");
 var landingWindow = creatingWindow(null, "#fff", null, null, null, "#fff", null);
 
 //The following "QController" method has these features:
-// 1 - Sends the method and the API's URL for accessing data to remote API to the conneting function executer
-// 2 - Accesing data from remote API
-// 3 - Creating new window with transition
-// 4 - Creating table with search feature for setting rows to hold remote API data's object
-// 5 - Accessing two properties from objects: usernamea and avatars
+// This method is the main root controller and is the one that runs and control the app entirely...
+// For more information, please navigate to the "QueryCONTROLLERS.JS" file on the "resources" folder...  
 QController.initController(null, 0, 1, 1, 1000, 0);
 
 //Opening landing window

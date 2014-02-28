@@ -39,13 +39,13 @@ function createAndUpdateData(executeType, field1, field2, field3, modalWindow){
         
         errorMessage("All fields are requiered! \n Please try again wiht the appropiate data on all fields");
         
-    } else if ( (field1.match(/\W/g) == null) || field1.lastIndexOf(".") + 1 == field1.length || field1.lastIndexOf(".") + 2 == field1.length){
+    } else if ( (field1.indexOf(".") == -1 ) || field1.lastIndexOf(".") + 1 == field1.length || field1.lastIndexOf(".") + 2 == field1.length || field1.lastIndexOf(".") <= 6){
         
-        errorMessage("Please enter a valid URL...");
+        errorMessage( "Please enter a valid URL...");
     
-    } else if ( ( field2.search("@") == -1 ) || field2.indexOf("@") < 1 || field2.lastIndexOf(".") < field2.indexOf("@") + 2 || field2.lastIndexOf(".") + 2 >= field2.length ){
+    } else if ( ( field2.search("@") == -1 )  || ( field2.indexOf("@") !== field2.lastIndexOf("@") ) || field2.indexOf("@") < 1 || field2.lastIndexOf(".") < field2.indexOf("@") + 2 || field2.lastIndexOf(".") + 2 >= field2.length ){
         
-        errorMessage( "222Please, eneter a valid format of an email. \n There is no way to fool GchrisWill's string email validation condition... LOL");
+        errorMessage( "Please, eneter a valid format of an email. \n There is no way to fool GchrisWill's string email validation condition... LOL");
         
     }else if (field3.length < 4){
         

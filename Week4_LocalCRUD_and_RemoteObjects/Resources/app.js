@@ -1,5 +1,5 @@
 /*
- * Student: Christopher Gonzalez
+ * Student: Christopher Gonzalez (Twitter: @GchrisWill)
  * Student number: 3302426
  * Current Class: Advance Scalable Data
  * Current Term: 1402
@@ -26,4 +26,23 @@
  */
 
 
-// IMPORTANT NOTE: Working on the Flowchart and pseudo code statements...
+// Including TiQuery Library
+Ti.include("TiQueryModule/TiQueryLibrary.js");
+
+// Setting Default background color
+Titanium.UI.setBackgroundColor("#fff");
+
+// Creating initialization for landing window
+var landingWindow = creatingWindow(null, "#fff", null, null, null, "#fff", null);
+
+//The following "QController" method has these features:
+// This method is the main root controller and is the one that runs and control the app entirely...
+// For more information, please navigate to the "QueryCONTROLLERS.JS" file on the "resources" folder...  
+QController.initController(null, 0, 1, 1, 1000, 0);
+
+//Opening landing window
+landingWindow.open();
+
+
+
+

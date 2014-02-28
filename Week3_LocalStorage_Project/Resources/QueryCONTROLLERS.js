@@ -95,14 +95,14 @@ function ApplicationInitiationController(fileTarget, counterStartPoint, counterP
             var buttonADD  = creatingButton( Titanium.UI.iPhone.SystemButton.ADD, null, null,  null, null, null, null, null, null, null);
             
             homeWindow.setRightNavButton(buttonADD);
-            homeWindow.tabBarHidden = true;
+            //homeWindow.tabBarHidden = true;
             
             // Calling the "TableViewController" function for displaying and setting the whole table
             var testtable = TableViewController(homeWindow);
             homeWindow.add(testtable);
             
             // Creating a single tab to hold the root window
-            var homeTab = creatingTab(homeWindow, null, "Password Manager");
+            var homeTab = creatingTab(homeWindow, Titanium.UI.iPhone.SystemIcon.FAVORITES, "Password Manager");
             mainTabController.addTab(homeTab);
             
             // Creating animation for mainTabController's transition
